@@ -18,7 +18,7 @@ I have added a PPT file and the databse file in a folder called "You Need" in th
 3. Fire up your xampp server or use the local server that laravel (php artisan serve) provides to launch the applcations
 
 Note:
-	I use macOS to developed this project so if you are usin windows then you get to make it work on your own. But linux users may not have difficulties.
+	I use macOS to developed this project so if you are using windows then you get to make it work on your own. But linux users may not have difficulties.
 
 Login as Admin: username: admin@mycota.com password: 00mohamed 
 Login as Manager: username: manager@mycota.com password: 00mohamed 
