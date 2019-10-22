@@ -41,6 +41,7 @@ Route::resource('/wmachines', 'MachinesController')->middleware(['auth', 'auth.a
 Route::resource('/orders', 'OrderDetailsController')->middleware(['auth']);
 Route::resource('/payments', 'PaymentsController')->middleware(['auth']);
 Route::resource('/orders_sumry', 'OrdersController')->middleware(['auth']);
+Route::resource('/auth/passwords', 'Auth\ChangePasswordController')->middleware(['auth']);
 
 
 

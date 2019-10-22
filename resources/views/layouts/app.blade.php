@@ -214,7 +214,7 @@
                                     <a class="dropdown-item" href="{{ route('profile.edit', Auth::user()->id) }}">
                                         {{ __('Profile') }}
                                 </a>
-                                <a class="dropdown-item" href="{{ route('profile.edit', Auth::user()->id) }}">
+                                <a class="dropdown-item" href="{{ route('passwords.edit', Auth::user()->id) }}">
                                         {{ __('Change Password') }}
                                 </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
